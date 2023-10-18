@@ -1,6 +1,6 @@
 # Playwright TypeScript Test Automation
 
-A test automation project using Playwright and TypeScript for QA-Masterclass homework.
+A test automation project using Playwright and TypeScript for QA-Masterclass homework. The project tests the login page and test page whether pages have titles and links for now.
 
 ## Table of Contents
 1. [Getting Started](#getting-started)
