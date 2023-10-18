@@ -11,3 +11,38 @@ In order to utilise this project the following tools are required to be installe
 
 ## Installation
 
+```
+git clone https://github.com/HackYourFuture-CPH/qa-masterclass
+```
+
+## Running the Example automation test
+
+1. Navigate to the root directory:
+
+```
+cd qa-masterclass
+```
+
+2. Install dependencies required to run the tests:
+
+```
+npm install
+```
+
+3. To run the test in all three web browsers : Chrome, Firefox, and webKit (Safari)
+
+```
+npm test
+```
+
+4. To run the test only in Chrome
+
+```
+npm run test:chrome
+```
+
+5. To view the test report
+
+```
+npm run playwright:report
+```
