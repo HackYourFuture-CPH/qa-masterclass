@@ -1,0 +1,35 @@
+{
+  "name": "qa-masterclass",
+  "version": "1.0.0",
+  "description": "QA Engineering Masterclass",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --headed",
+    "test:chrome": "npx playwright test --project=chromium",
+    "playwright:report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackYourFuture-CPH/qa-masterclass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HackYourFuture-CPH/qa-masterclass/issues"
+  },
+  "homepage": "https://github.com/HackYourFuture-CPH/qa-masterclass#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.6"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.39.0",
+    "playwright-core": "^1.39.0",
+    "undici-types": "^5.25.3",
+    "fsevents": "^2.3.2"
+  }
+}
