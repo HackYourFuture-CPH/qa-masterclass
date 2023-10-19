@@ -24,6 +24,6 @@ Steps to be followed in order to setup test automation environment
 
 # Test Execution
 
-npm run test/npx playwright test (to run the test on all 3 browsers)
-npx playwright test --project:chromium (to run the specific chromium browsers)
-npm run playwright:report (to show the report)
+* npm run test/npx playwright test (to run the test on all 3 browsers)
+* npx playwright test --project:chromium (to run the specific chromium browsers)
+* npm run playwright:report (to show the report)
