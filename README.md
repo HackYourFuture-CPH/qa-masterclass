@@ -16,14 +16,21 @@ Steps to be followed in order to setup test automation environment
 * Install dependencies: npm install 
 * Install Framework: npm init playwright@latest
 
+
 # Test Framework
 
 * POM(Page Object Model) is a test design pattern for automation is used.
 
 * In order to test there must be corresponding Page class for each web page/section/component in the application.
 
+
 # Test Execution
 
 * npm run test/npx playwright test (to run the test on all 3 browsers)
 * npx playwright test --project:chromium (to run the specific chromium browsers)
 * npm run playwright:report (to show the report)
+
+
+# Contribution
+
+* Any contribution will be highly appreciated using the above setup steps and creating a new Pull Request.
