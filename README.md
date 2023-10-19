@@ -36,6 +36,7 @@ Explain the structure of your test suite, including directories, files, and nami
 ## Writing Tests
 Follow the best practices for writing tests using Playwright.
 Organize your tests in the 'tests' directory.
+
 ## Reporting
 If you are using any test reporting or code coverage tools, explain how to generate and interpret reports.
 
