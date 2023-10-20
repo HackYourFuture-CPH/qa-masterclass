@@ -22,30 +22,32 @@ Before you begin, make sure you have the following prerequisites installed on yo
 * git clone https://github.com/HackYourFuture-CPH/qa-masterclass.git to clone git repo
 
 # install Playwright using npm
-    * npm init playwright@latest
-    * Run the install command and select the following to get started:
-    * Choose between TypeScript or JavaScript (default is TypeScript)
-    * Name of your Tests folder (default is tests or e2e if you already have a tests folder in your project)
-    * Add a GitHub Actions workflow to easily run tests on CI
-    * Install Playwright browsers (default is true)
+* npm init playwright@latest
+   * Run the install command and select the following to get started:
+   * Choose between TypeScript or JavaScript (default is TypeScript)
+   * Name of your Tests folder (default is tests or e2e if you already have a tests folder in your project)
+   * Add a GitHub Actions workflow to easily run tests on CI
+   * Install Playwright browsers (default is true)
 
 # After the playwrite installation 
   * run npm init (to install the dependencies)
-  * add the Scripts to Package.json to run the test ("scripts":{
+  * add the Scripts to Package.json to run the test
+  * `"scripts":
+    {
     "test": "npx playwright test --hedded",
     "test:chrome": "npx playwright test --project=chromium",
-    "playwright:report": "npx playwright show-report"
-  })
+    "playwright:report": "npx playwright show-report" 
+    }`
 
 # commands ro run tests
   * npm run test - to run the test in different browsers
   * npm run playwright:report - to show the report
 
 # Examples
-  For more code examples and use cases, check out the Playwright Examples Repository.[https://github.com/microsoft/playwright-examples]
+* For more code examples and use cases, check out the Playwright Examples Repository.[https://github.com/microsoft/playwright-examples]
 
 # Documentation
-You can find detailed documentation and guides on using Playwright in the Playwright Documentation.[https://playwright.dev/docs/intro]
+* You can find detailed documentation and guides on using Playwright in the Playwright Documentation.[https://playwright.dev/docs/intro]
   
 
 
