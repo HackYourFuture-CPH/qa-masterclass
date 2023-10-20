@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test --headed",
-	  "test:chrome": "npx playwright test --project=chromium",
-	  "playwright:report": "npx playwright show-report",
+    "test:chrome": "npx playwright test --project=chromium --headed",
+    "playwright:report": "npx playwright show-report",
     "codegen": "npx playwright codegen"
   },
   "keywords": [],
@@ -14,12 +14,14 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.39.0",
+    "@types/config": "^3.3.2",
     "@types/node": "^20.8.6"
   },
   "directories": {
     "test": "tests"
   },
   "dependencies": {
+    "config": "^3.3.9",
     "fsevents": "^2.3.2",
     "playwright": "^1.39.0",
     "playwright-core": "^1.39.0",
