@@ -19,7 +19,7 @@ Ex: TypeScript / JavaScript
 
 # Installation & Setup:
 Node.js: Ensure you have Node.js installed on your system. You can download and install it from the official Node.js website (https://nodejs.org/).
-Text Editor: Text Editorisual studio code.
+Text Editor: Text Visual studio code.
 Version Control System: Ensure that Git is installed, and you have a Git client set up on your machine.
 
 # How to Run Test:
