@@ -4,7 +4,7 @@
   "description": "QA Engineering Masterclass",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test --headed",
+    "test": "npx playwright test",
     "test:chrome": "npx playwright test --project=chromium",
     "test:firefox": "npx playwright test --project=firefox",
     "test:webkit": "npx playwright test --project=webkit",
