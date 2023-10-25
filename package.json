@@ -8,6 +8,7 @@
     "test:chrome": "npx playwright test --project=chromium",
     "playwright:report": "npx playwright show-report"
   },
+  "codegen": "npx playwright codegen",
   "keywords": [],
   "author": "Manisha",
   "license": "ISC",
